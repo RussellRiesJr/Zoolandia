@@ -1,17 +1,7 @@
-class Animal :
+from animal import *
+from species import *
+from habitat import *
+from movement import *
 
-  def __init__(self):
-    self.species = None
-    self.name = ""
+bob = zoolandia.Betta("orange", "Bob")
 
-class Species:
-
-  def __init__(self):
-    self.common_name = ""
-    self.geo_region = ""
-
-class Habitat:
-
-  def __init__(self):
-    self.name = ""
-    self.members = set()
